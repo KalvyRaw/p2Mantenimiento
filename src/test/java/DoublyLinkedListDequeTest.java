@@ -27,43 +27,31 @@ class DoublyLinkedListDequeTest {
         }
 
         @Test
-        @DisplayName("first should return null")
-        void firstShouldReturnNull() {
-            assertNull(deque.first());
-        }
-
-        @Test
-        @DisplayName("last should return null")
-        void lastShouldReturnNull() {
-            assertNull(deque.last());
-        }
-
-        @Test
-        @DisplayName("deleteFirst should throw DoubleEndedQueueException")
+        @DisplayName("and delete firt element should throw DoubleEndedQueueException")
         void deleteFirstShouldThrowException() {
             assertThrows(DoubleEndedQueueException.class, () -> deque.deleteFirst());
         }
 
         @Test
-        @DisplayName("deleteLast should throw DoubleEndedQueueException")
+        @DisplayName("and delete last element should throw DoubleEndedQueueException")
         void deleteLastShouldThrowException() {
             assertThrows(DoubleEndedQueueException.class, () -> deque.deleteLast());
         }
         @Test
-        @DisplayName("wants to know first element should throw DoubleEndedQueueException")
+        @DisplayName("and wants to know first element should throw DoubleEndedQueueException")
         void firstElementShouldThrowException(){
             assertThrows(DoubleEndedQueueException.class, () -> deque.first());
         }
 
         @Test
-        @DisplayName("wants to know last element should throw DoubleEndedQueueException")
+        @DisplayName("and wants to know last element should throw DoubleEndedQueueException")
         void lastElementShouldThrowException(){
             assertThrows(DoubleEndedQueueException.class, () -> deque.last());
         }
     }
 
     @Nested
-    @DisplayName("When a DoublyLinkedListDeque is not empty")
+    @DisplayName("when a DoublyLinkedListDeque is not empty")
     class WhenIsNotEmpty {
 
         private DoublyLinkedListDeque<Integer> deque;
@@ -95,7 +83,7 @@ class DoublyLinkedListDequeTest {
         }
 
         @Test
-        @DisplayName("deleteFirst should remove the first element")
+        @DisplayName("delete first element should remove the first element")
         void deleteFirstShouldRemoveFirstElement() {
             deque.deleteFirst();
             assertEquals(2, deque.size());
@@ -103,7 +91,7 @@ class DoublyLinkedListDequeTest {
         }
 
         @Test
-        @DisplayName("deleteLast should remove the last element")
+        @DisplayName("delete last element should remove the last element")
         void deleteLastShouldRemoveLastElement() {
             deque.deleteLast();
             assertEquals(2, deque.size());
