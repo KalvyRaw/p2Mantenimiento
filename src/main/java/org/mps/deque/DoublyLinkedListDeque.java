@@ -1,5 +1,7 @@
 package org.mps.deque;
 
+import java.util.Comparator;
+
 public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
 
     private DequeNode<T> first;
@@ -58,10 +60,10 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     @Override
     public void deleteLast() {
         // TODO
-       if (last == null) {
-           throw new DoubleEndedQueueException("Error al eliminar el último elemento, no tiene último");
+        if (last == null) {
+            throw new DoubleEndedQueueException("Error al eliminar el último elemento, no tiene último");
 
-       } else {
+        } else {
             last = last.getPrevious();
             if (last != null) {
                 last.setNext(null);
@@ -94,5 +96,79 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     public int size() {
         // TODO
         return this.size;
+    }
+
+    @Override
+    public T get(int index) {
+        DequeNode<T> current;
+        if (index < 0 || index >= size()) throw new IndexOutOfBoundsException("Índice incorrecto");
+        else {
+            if(index < size/2) {
+                current = first;
+                for (int i=0; i<index;i++) {
+                    current = current.getNext();
+                }
+            } else {
+                current = last;
+                for (int i = size - 1; i>index ;i--) {
+                    current = current.getPrevious();
+                }
+            }
+        }
+        return current.getItem();
+    }
+
+    @Override
+    public boolean contains(T value) {
+        DequeNode<T> current = first;
+        while (current != null) {
+            if (current.getItem().equals(value)) {
+                return true;
+            }
+            current = current.getNext();
+        }
+        return false;
+    }
+    @Override
+    public void remove(T value) {
+        DequeNode<T> current = first;
+        while (current != null) {
+            if (current.getItem().equals(value)) {
+                if (current == first) {
+                    deleteFirst();
+                } else if (current == last) {
+                    deleteLast();
+                } else {
+                    current.getPrevious().setNext(current.getNext());
+                    current.getNext().setPrevious(current.getPrevious());
+                    size--;
+                }
+                return;
+            }
+            current = current.getNext();
+        }
+    }
+
+    @Override
+    public void sort(Comparator<? super T> comparator) {
+        if (size > 1) {
+            DequeNode<T> current = first.getNext();
+            while (current != null) {
+                T item = current.getItem();
+                DequeNode<T> temp = current.getPrevious();
+                while (temp != null && comparator.compare(temp.getItem(), item) > 0) {
+                    temp.getNext().setItem(temp.getItem());
+                    temp = temp.getPrevious();
+                }
+                if (temp == null) {
+                    first.setItem(item);
+                } else {
+                    temp.getNext().setItem(item);
+                }
+                current = current.getNext();
+            }
+        } else {
+            throw new DoubleEndedQueueException("List is empty; can't sort anything");
+        }
     }
 }
