@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.mps.deque.DoublyLinkedListDequeTest" time="0.052" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\albas\p2Mantenimiento\target\test-classes;C:\Users\albas\p2Mantenimiento\target\classes;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\albas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\albas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004 2023-03-17T12-17-24_654-jvmRun1 surefire10998668862714789054tmp surefire_02874635101648128174tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\albas\p2Mantenimiento\target\test-classes;C:\Users\albas\p2Mantenimiento\target\classes;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\albas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\albas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\albas"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\albas\p2Mantenimiento"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="albas"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\albas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\albas\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\albas\p2Mantenimiento"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Calibre2\;C:\Program Files\apache-maven-3.8.7\bin;C:\Users\albas\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\albas\AppData\Local\Programs\Python\Python311\;C:\Users\albas\AppData\Roaming\local\bin;C:\Users\albas\AppData\Local\Microsoft\WindowsApps;C:\Users\albas\.dotnet\tools;C:\Users\albas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\msys64\usr\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="sizeShouldBeGreaterThanZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty" time="0"/>
+  <testcase name="sortListInReverseOrder" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.002"/>
+  <testcase name="sortListInNaturalOrder" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.001"/>
+  <testcase name="sortListWithOneElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0"/>
+  <testcase name="removeLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.002"/>
+  <testcase name="removeElementInTheMiddleOfADequeOfThree" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.002"/>
+  <testcase name="removeFirstElementR" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0"/>
+  <testcase name="removeFirstOccurrenceOfAnElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.001"/>
+  <testcase name="testContainsValue" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$contains" time="0.001"/>
+  <testcase name="testContainsValueNotContained" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$contains" time="0"/>
+  <testcase name="testGetIndexOutOfRange" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.003"/>
+  <testcase name="getFirstElementReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.001"/>
+  <testcase name="getAnyElementInTheMiddleReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.001"/>
+  <testcase name="getLastElementReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0"/>
+  <testcase name="prependShouldAddElementAtBeginning" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0.001"/>
+  <testcase name="appendShouldAddElementAtEnd" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0"/>
+  <testcase name="deleteFirstShouldRemoveFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0"/>
+  <testcase name="deleteLastShouldRemoveLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0"/>
+  <testcase name="deleteLastElementByDeleteLast" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.001"/>
+  <testcase name="deleteLastElementByDeleteFirst" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.002"/>
+  <testcase name="lastShouldReturnLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$positions" time="0.001"/>
+  <testcase name="firstShouldReturnFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$positions" time="0"/>
+  <testcase name="sizeShouldBeZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.001"/>
+  <testcase name="removeInEmptyList" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.002"/>
+  <testcase name="containsInEmptyListAlwaysIsFalse" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
+  <testcase name="getPositionShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
+  <testcase name="sortShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.003"/>
+  <testcase name="insertFirstUsingPrepend" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$addElementsInEmptyList" time="0.002"/>
+  <testcase name="insertFirstUsingAppend" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$addElementsInEmptyList" time="0"/>
+  <testcase name="lastElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0"/>
+  <testcase name="firstElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0"/>
+  <testcase name="deleteFirstShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$deleteEmpty" time="0.001"/>
+  <testcase name="deleteLastShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$deleteEmpty" time="0"/>
+</testsuite>
