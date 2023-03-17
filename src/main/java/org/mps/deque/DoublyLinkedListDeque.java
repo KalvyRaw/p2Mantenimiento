@@ -151,7 +151,7 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
 
     @Override
     public void sort(Comparator<? super T> comparator) {
-        if (size > 1) {
+        if (size >= 1) {
             DequeNode<T> current = first.getNext();
             while (current != null) {
                 T item = current.getItem();
