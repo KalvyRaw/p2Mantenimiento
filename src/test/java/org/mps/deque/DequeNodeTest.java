@@ -1,5 +1,7 @@
 package org.mps.deque;
+
 import org.junit.jupiter.api.*;
+import org.mps.deque.DequeNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -28,12 +30,12 @@ class DequeNodeTest {
         extra = null;
     }
     @Nested
-    @DisplayName("get")
+    @DisplayName("get method")
     class getters {
         @Nested
-        @DisplayName("previous node")
+        @DisplayName("of previous node")
         class previousNode {
-            @DisplayName("of first node is null")
+            @DisplayName("of first node returns null")
             @Test
             void previousOfFirstNodeShouldReturnNull(){
                 previous.setNext(node);
@@ -107,7 +109,7 @@ class DequeNodeTest {
 
     }
     @Nested
-    @DisplayName("set")
+    @DisplayName("set method")
     class setters {
         @Test
         @DisplayName("sets item of node with a new value")
@@ -142,12 +144,12 @@ class DequeNodeTest {
         @Nested
         class isFirstNode {
             @Test
-            @DisplayName("when you are not first node")
+            @DisplayName("when you are first node returns true")
             void isFirstNodeShouldReturnTrueIfItsFirst(){
                 assertTrue(previous.isFirstNode());
             }
             @Test
-            @DisplayName("when you are first node")
+            @DisplayName("when you are not first node returns false")
             void isFirstNodeIfYouArentFirstNodeShouldReturnFalse(){
                 previous.setNext(node);
                 node.setPrevious(previous);
@@ -161,12 +163,12 @@ class DequeNodeTest {
         @Nested
         class isLastNode {
             @Test
-            @DisplayName("when you are last node")
+            @DisplayName("when you are last node returns true")
             void isLastNodeShouldReturnTrueIfItsLast(){
                 assertTrue(next.isLastNode());
             }
             @Test
-            @DisplayName("when you are not last node")
+            @DisplayName("when you are not last node returns false")
             void isLastNodeIfYouArentLastNodeShouldReturnFalse() {
                 assertTrue(node.isLastNode());
                 previous.setNext(node);
@@ -178,7 +180,7 @@ class DequeNodeTest {
         @Nested
         class isNotTerminalNode {
             @Test
-            @DisplayName("when you are not terminal node")
+            @DisplayName("when you are not terminal node returns true")
             void nodeThatIsNotFirstOrFinalWillReturnTrue(){
                 assertFalse(node.isNotATerminalNode());
                 node.setPrevious(previous);
@@ -186,7 +188,7 @@ class DequeNodeTest {
                 assertTrue(node.isNotATerminalNode());
             }
             @Test
-            @DisplayName("when you are terminal node")
+            @DisplayName("when you are terminal node returns false")
             void nodeThatIsFirstOrLastWillBeTerminalNode(){
                 previous.setNext(node);
                 node.setPrevious(previous);
