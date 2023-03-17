@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004 2023-03-17T12-17-24_654-jvmRun1 surefire10998668862714789054tmp surefire_02874635101648128174tmp"/>
+    <property name="sun.java.command" value="C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697\surefirebooter16067256594556784775.jar C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697 2023-03-17T23-12-43_395-jvmRun1 surefire2608518418346892367tmp surefire_017190593808381042393tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\albas\p2Mantenimiento\target\test-classes;C:\Users\albas\p2Mantenimiento\target\classes;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\albas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\albas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697\surefirebooter16067256594556784775.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
@@ -56,37 +56,37 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="sizeShouldBeGreaterThanZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty" time="0"/>
-  <testcase name="sortListInReverseOrder" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.002"/>
+  <testcase name="sizeShouldBeGreaterThanZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty" time="0.002"/>
+  <testcase name="sortListInReverseOrder" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.001"/>
   <testcase name="sortListInNaturalOrder" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.001"/>
-  <testcase name="sortListWithOneElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0"/>
-  <testcase name="removeLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.002"/>
-  <testcase name="removeElementInTheMiddleOfADequeOfThree" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.002"/>
-  <testcase name="removeFirstElementR" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0"/>
-  <testcase name="removeFirstOccurrenceOfAnElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.001"/>
-  <testcase name="testContainsValue" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$contains" time="0.001"/>
+  <testcase name="sortListWithOneElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$sort" time="0.001"/>
+  <testcase name="removeLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.003"/>
+  <testcase name="removeElementInTheMiddleOfADequeOfThree" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0"/>
+  <testcase name="removeFirstElementR" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0.003"/>
+  <testcase name="removeFirstOccurrenceOfAnElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$remove" time="0"/>
+  <testcase name="testContainsValue" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$contains" time="0"/>
   <testcase name="testContainsValueNotContained" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$contains" time="0"/>
   <testcase name="testGetIndexOutOfRange" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.003"/>
-  <testcase name="getFirstElementReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.001"/>
-  <testcase name="getAnyElementInTheMiddleReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0.001"/>
+  <testcase name="getFirstElementReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0"/>
+  <testcase name="getAnyElementInTheMiddleReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0"/>
   <testcase name="getLastElementReturnsFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$get" time="0"/>
-  <testcase name="prependShouldAddElementAtBeginning" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0.001"/>
-  <testcase name="appendShouldAddElementAtEnd" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0"/>
+  <testcase name="prependShouldAddElementAtBeginning" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0"/>
+  <testcase name="appendShouldAddElementAtEnd" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$prependAppend" time="0.001"/>
   <testcase name="deleteFirstShouldRemoveFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0"/>
-  <testcase name="deleteLastShouldRemoveLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0"/>
-  <testcase name="deleteLastElementByDeleteLast" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.001"/>
-  <testcase name="deleteLastElementByDeleteFirst" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.002"/>
-  <testcase name="lastShouldReturnLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$positions" time="0.001"/>
+  <testcase name="deleteLastShouldRemoveLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.001"/>
+  <testcase name="deleteLastElementByDeleteLast" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0.002"/>
+  <testcase name="deleteLastElementByDeleteFirst" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$delete" time="0"/>
+  <testcase name="lastShouldReturnLastElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$positions" time="0"/>
   <testcase name="firstShouldReturnFirstElement" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsNotEmpty$positions" time="0"/>
-  <testcase name="sizeShouldBeZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.001"/>
-  <testcase name="removeInEmptyList" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.002"/>
+  <testcase name="sizeShouldBeZero" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
+  <testcase name="removeInEmptyList" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
   <testcase name="containsInEmptyListAlwaysIsFalse" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
-  <testcase name="getPositionShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0"/>
-  <testcase name="sortShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.003"/>
-  <testcase name="insertFirstUsingPrepend" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$addElementsInEmptyList" time="0.002"/>
+  <testcase name="getPositionShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.001"/>
+  <testcase name="sortShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty" time="0.001"/>
+  <testcase name="insertFirstUsingPrepend" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$addElementsInEmptyList" time="0.001"/>
   <testcase name="insertFirstUsingAppend" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$addElementsInEmptyList" time="0"/>
-  <testcase name="lastElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0"/>
-  <testcase name="firstElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0"/>
+  <testcase name="lastElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0.001"/>
+  <testcase name="firstElementShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$positionsEmpty" time="0.001"/>
   <testcase name="deleteFirstShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$deleteEmpty" time="0.001"/>
   <testcase name="deleteLastShouldThrowException" classname="org.mps.deque.DoublyLinkedListDequeTest$WhenIsEmpty$deleteEmpty" time="0"/>
 </testsuite>

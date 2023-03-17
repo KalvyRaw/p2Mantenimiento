@@ -23,8 +23,8 @@ class DequeNode&lt;T&gt; {
     }
 
     void setItem(T item) {
-<span class="nc" id="L26">        this.item = item;</span>
-<span class="nc" id="L27">    }</span>
+<span class="fc" id="L26">        this.item = item;</span>
+<span class="fc" id="L27">    }</span>
 
     DequeNode&lt;T&gt; getPrevious() {
 <span class="fc" id="L30">        return previous;</span>
@@ -43,15 +43,15 @@ class DequeNode&lt;T&gt; {
 <span class="fc" id="L43">    }</span>
 
     boolean isFirstNode() {
-<span class="nc bnc" id="L46" title="All 2 branches missed.">        return previous == null;</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">        return previous == null;</span>
     }
 
     boolean isLastNode() {
-<span class="nc bnc" id="L50" title="All 2 branches missed.">        return next == null;</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">        return next == null;</span>
     }
 
     boolean isNotATerminalNode() {
-<span class="nc bnc" id="L54" title="All 4 branches missed.">        return !(isFirstNode() || isLastNode());</span>
+<span class="fc bfc" id="L54" title="All 4 branches covered.">        return !(isFirstNode() || isLastNode());</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

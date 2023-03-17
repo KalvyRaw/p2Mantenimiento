@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.mps.deque.DequeNodeTest" time="0.072" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.mps.deque.DequeNodeTest" time="0.08" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004 2023-03-17T12-17-24_654-jvmRun1 surefire10998668862714789054tmp surefire_02874635101648128174tmp"/>
+    <property name="sun.java.command" value="C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697\surefirebooter16067256594556784775.jar C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697 2023-03-17T23-12-43_395-jvmRun1 surefire2608518418346892367tmp surefire_017190593808381042393tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\albas\p2Mantenimiento\target\test-classes;C:\Users\albas\p2Mantenimiento\target\classes;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\albas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\albas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\albas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\albas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\albas\AppData\Local\Temp\surefire9786846401619753004\surefirebooter17508799982311402205.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\albas\AppData\Local\Temp\surefire16549537242723694697\surefirebooter16067256594556784775.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
@@ -57,10 +57,10 @@
     <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="nodeThatIsFirstOrLastWillBeTerminalNode" classname="org.mps.deque.DequeNodeTest$checkNodes$isNotTerminalNode" time="0.03"/>
-  <testcase name="nodeThatIsNotFirstOrFinalWillReturnTrue" classname="org.mps.deque.DequeNodeTest$checkNodes$isNotTerminalNode" time="0.001"/>
-  <testcase name="isLastNodeShouldReturnTrueIfItsLast" classname="org.mps.deque.DequeNodeTest$checkNodes$isLastNode" time="0"/>
-  <testcase name="isLastNodeIfYouArentLastNodeShouldReturnFalse" classname="org.mps.deque.DequeNodeTest$checkNodes$isLastNode" time="0"/>
-  <testcase name="isFirstNodeIfYouArentFirstNodeShouldReturnFalse" classname="org.mps.deque.DequeNodeTest$checkNodes$isFirstNode" time="0.002"/>
+  <testcase name="nodeThatIsNotFirstOrFinalWillReturnTrue" classname="org.mps.deque.DequeNodeTest$checkNodes$isNotTerminalNode" time="0.002"/>
+  <testcase name="isLastNodeShouldReturnTrueIfItsLast" classname="org.mps.deque.DequeNodeTest$checkNodes$isLastNode" time="0.002"/>
+  <testcase name="isLastNodeIfYouArentLastNodeShouldReturnFalse" classname="org.mps.deque.DequeNodeTest$checkNodes$isLastNode" time="0.001"/>
+  <testcase name="isFirstNodeIfYouArentFirstNodeShouldReturnFalse" classname="org.mps.deque.DequeNodeTest$checkNodes$isFirstNode" time="0.001"/>
   <testcase name="isFirstNodeShouldReturnTrueIfItsFirst" classname="org.mps.deque.DequeNodeTest$checkNodes$isFirstNode" time="0.001"/>
   <testcase name="setNextShouldWorkProperly" classname="org.mps.deque.DequeNodeTest$setters" time="0.004"/>
   <testcase name="setItemSetsTheItemCorrectly" classname="org.mps.deque.DequeNodeTest$setters" time="0"/>
@@ -68,8 +68,8 @@
   <testcase name="getItemReturnsItemCorrectly" classname="org.mps.deque.DequeNodeTest$getters" time="0.001"/>
   <testcase name="nextNodeOfFirstNode" classname="org.mps.deque.DequeNodeTest$getters$nextNode" time="0"/>
   <testcase name="nextNodeOfLastNodeShouldReturnNull" classname="org.mps.deque.DequeNodeTest$getters$nextNode" time="0.001"/>
-  <testcase name="nextNodeOfMiddleNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$nextNode" time="0"/>
-  <testcase name="previousOfLastNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$previousNode" time="0.001"/>
+  <testcase name="nextNodeOfMiddleNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$nextNode" time="0.001"/>
+  <testcase name="previousOfLastNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$previousNode" time="0"/>
   <testcase name="previousOfFirstNodeShouldReturnNull" classname="org.mps.deque.DequeNodeTest$getters$previousNode" time="0"/>
-  <testcase name="previousOfMiddleNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$previousNode" time="0.001"/>
+  <testcase name="previousOfMiddleNodeShouldReturnCorrectly" classname="org.mps.deque.DequeNodeTest$getters$previousNode" time="0"/>
 </testsuite>
